@@ -1,0 +1,207 @@
+/* index page */
+/* Reset some default browser styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header section */
+#home header {
+    background-color: #b562ca;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main header text */
+#home h1 {
+    font-size: 24px;
+}
+
+/* Style the navigation menu */
+#home nav ul {
+    list-style: none;
+    background-color: #8b21ae;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the navigation menu items */
+#home nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the navigation links */
+#home nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the navigation links on hover */
+#home nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* this is login page style */
+/* Style the login form container */
+#login {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* padding-top: 30px; */
+}
+
+/* Style the form title */
+#login h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the form labels */
+#login label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style the input fields */
+#login input[type="email"],
+#login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+#login input[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#login{
+    padding-: 30px;
+}
+/* Style the submit button on hover */
+#login input[type="submit"]:hover {
+    background-color: #005bbf;
+}
+
+/* Style the registration form container */
+#registration {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the form title */
+#registration h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the form labels */
+#registration label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style the input fields */
+#registration input[type="text"],
+#registration input[type="email"],
+#registration input[type="password"],
+#registration input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+#registration input[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+#registration input[type="submit"]:hover {
+    background-color: #005bbf;
+}
+
+
+/* image */
+/* Style images */
+
+    img {
+        display: block;
+        margin: 0 auto;
+    
+        /* padding-top: 10px; */
+      
+    }
+   
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 800px;
+        margin: 20px auto;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    
+    thead {
+        background-color: #0073e6;
+        color: #fff;
+    }
+    
+    th {
+        font-weight: bold;
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    tbody tr:hover {
+        background-color: #e0e0e0;
+    }
+    
